@@ -20,7 +20,7 @@
     }
     .carousel-wrapper {
         position: relative;
-        display: flex;
+        display: none;
         justify-content: center;
         text-align: center;
         width: 500px;
