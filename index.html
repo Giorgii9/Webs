@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babloma</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<header>
+    <div class="icon">
+    <img id="menuIcon" src="assets/images/menu.png" onclick="menuDown()">
+    </div>
+    <ul class="menu">
+        <li class="active"><a href="">მთავარი</a></li>
+        <li class="noactive"><a href="info.html">ინფორმაცია</a></li>
+        <li class="noactive"><a href="feedback.html">კონტაქტი</a></li>
+    </ul>
+</header>
+<body>
+    <div class="carousel-wrapper">
+        <span id="item-1"></span>
+        <span id="item-2"></span>
+        <span id="item-3"></span>
+        <div class="carousel-item item-1">
+          <a href="#item-3" class="arrow-prev arrow"></a>
+          <a href="#item-2" class="arrow-next arrow"></a>
+        </div>
+    
+        <div class="carousel-item item-2">
+          <a href="#item-1" class="arrow-prev arrow"></a>
+          <a href="#item-3" class="arrow-next arrow"></a>
+        </div>
+    
+        <div class="carousel-item item-3">
+          <a href="#item-2" class="arrow-prev arrow"></a>
+          <a href="#item-1" class="arrow-next arrow"></a>
+        </div>
+    
+      </div>
+      <div class="sop">
+    <div class="texts">
+        <p>შეუკვეთე შენთვის სასურველი ვებსაიტი ჩვენთან</p>
+        <br>
+        <div class="alllog">
+        <div class="logos">
+            <img src="assets/images/24hrservice.jpg" >
+            <img src="assets/images/alwayssafety.jpg" >
+            <img src="assets/images/alwaysgood.jpg" >
+        </div>
+    </div>
+</div>
+</div>
+<div class="mobilelogos">
+    <p>შეუკვეთე შენთვის სასურველი ვებსაიტი ჩვენთან</p>
+<div class="moblogos">
+    <img src="assets/images/24hrservice.jpg" >
+    <img src="assets/images/alwayssafety.jpg" >
+    <img src="assets/images/alwaysgood.jpg" >
+</div>
+</div>
+
+</body>
+<style>
+    @font-face {
+        font-family: font;
+        src: url(assets/fonts/HelveticaNeueLTGEO-55Roman.ttf)
+    }
+    *{
+        font-family: font;
+    }
+    .texts {
+        text-align: center;
+    }
+    .logos img {
+        width: 200px;
+        border-radius: 10px;
+    }
+    .logos {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+    .moblogos img {
+        width: 200px;
+        border-radius: 10px;
+    }
+    
+</style>
+<script src="assets/js/ad.js"></script>
+<script src="assets/js/menu.js"></script>
+</html>

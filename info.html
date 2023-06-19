@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babloma</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<header>
+    <div class="icon">
+        <img id="menuIcon" src="assets/images/menu.png" onclick="menuDown()">
+        </div>
+        <ul class="menu">
+            <li class="active"><a href="index.html">მთავარი</a></li>
+            <li class="noactive"><a href="info.html">ინფორმაცია</a></li>
+            <li class="noactive"><a href="feedback.html">კონტაქტი</a></li>
+        </ul>
+    </header>
+</header>
+
+<body>
+    <div class="info">
+        <h1>ჩვენ შესახებ</h1>
+        <div class="txtbox">
+            <p>ჩვენი კამპანია <span>"babloma"</span> შეიქმნა იმ მიზნით, რათა განთავსდეს მასში სხვადასხვა <br>სახის კონტენტი</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="socmedia">
+        <div class="text">
+            <h1>გამოგვყევით სოც.ქსელელბში</h1>
+            <div class="socicons">
+                <li title="Facebook"><a href="https://www.facebook.com/profile.php?id=100092626848285&mibextid=ZbWKwL"><i class="fa-brands fa-facebook" style="color: #005eff;"></i></a></li>
+                <li title="Telegram"><a href="https://t.me/giorgibablomashvili"><i class="fa-brands fa-telegram" style="color: #00bfff;"></i></a></li>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    @font-face {
+        font-family: font;
+        src: url(assets/fonts/HelveticaNeueLTGEO-55Roman.ttf)
+    }
+    *{
+        font-family: font;
+    }
+    .txtbox span {
+        font-weight: bolder;
+    }
+    .socmedia {
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    .text h1{
+        font-size: 15px;
+    }
+    .socicons li {
+        list-style: none;
+    }
+    .socicons {
+        font-size: 45px;
+        gap: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    .socicons:hover {
+    }
+</style>
+<script src="assets/js/ad.js"></script>
+<script src="https://kit.fontawesome.com/11b6106e77.js" crossorigin="anonymous"></script>
+<script src="assets/js/menu.js"></script>
+</html>

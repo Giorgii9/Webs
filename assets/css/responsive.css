@@ -1,0 +1,61 @@
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+        align-items: unset;
+    }
+    .icon img {
+        display: unset;
+    }
+    .menu {
+        flex-direction: column;
+        max-height: 0;
+        overflow: hidden;
+        transition: .5s;
+    }
+    .menu a{
+        text-decoration: none;
+    }
+    .menu.active {
+        max-height: 100vh;
+    }
+    .carousel-wrapper {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 500px;
+        height: ;
+        max-width: 600px;
+        max-height: 400px;
+        min-width: ;
+        min-height: ;
+    }
+    .alllog {
+        position: relative;
+        display: none;
+        flex-direction: column;
+        top: 20px;
+        justify-content: center;
+        text-align: center;
+
+        
+    }
+    .pic {
+        display: none;
+    }
+    .forcont {
+        display: flex;
+    }
+    .texts {
+        display: none;
+    }
+    .mobilelogos {
+        position: relative;
+        display: flex;
+        top: 55px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
